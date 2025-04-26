@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "vercel-build": "echo 'No build step required for Node.js backend'"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
